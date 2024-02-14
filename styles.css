@@ -1,26 +1,44 @@
 body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-div {
+div.card {
     border-style: outset;
     border-color: black;
     border-bottom-width: 0.4rem;
     border-right-width: 0.4rem;
     border-radius: 0.5rem;
     position: relative;
-    left: 30rem;
-    bottom: -15rem;
     height: 30rem;
     width: 21rem;
     background-color: white;
-
+    padding: 1rem;
+    font-family: -apple-system, "Segoe UI Symbol";
 }
 p{
     color: grey;
 
 }
-img {
-    margin-top:1rem;
-    margin-left: 1rem;
+
+p.learning{
+    padding:0.2rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: gold;
+    color:black;
+    height: 1.5rem;
+    width: 5rem;
+}
+img{
+    width: 100%;
 }
