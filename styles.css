@@ -8,14 +8,17 @@ body {
     justify-content: center;
     height: 100vh;
 }
-
+div.wrapper{
+    background-color: black;
+    border-radius: 1rem;
+}
 div.card {
+    position: relative;
+    bottom: 0.5rem;
+    right: 0.5rem;
     border-style: outset;
     border-color: black;
-    border-bottom-width: 0.4rem;
-    border-right-width: 0.4rem;
-    border-radius: 0.5rem;
-    position: relative;
+    border-radius: 1rem;
     height: 30rem;
     width: 21rem;
     background-color: white;
@@ -28,6 +31,8 @@ p{
 }
 
 p.learning{
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
     padding:0.2rem;
     font-weight: 900;
     display: flex;
@@ -38,7 +43,32 @@ p.learning{
     color:black;
     height: 1.5rem;
     width: 5rem;
+    font-size: 15.5px;
+}
+p.publish{
+    margin-top: 1.2rem;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}
+p.author{
+    font-weight: 900;
+    color: black;
+    font-size: 13px;
+}
+p.text{
+    padding-bottom: 0.4rem;
 }
 img{
     width: 100%;
+}
+img.icon{
+    height: 2rem;
+    width: 2rem;
+    padding-right: 0.6rem;
+}
+div.bottom{
+    display: flex;
+    align-items: center;
+
 }
